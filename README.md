@@ -1,5 +1,5 @@
-# effective-working-for-developer
-It's time to stop using the mouse!
+# dev note
+It's time to stop using the mouse and become a real senior!
 
 ## Quick start
 
