@@ -5,10 +5,17 @@ It's time to stop using the mouse and become a real senior!
 
 ### Shell quick install
 
-Follow at:
-https://github.com/kristijanhusak/neovim-config
+1. Neovim
+```
+https://github.com/hardcoreplayers/ThinkVim
+```
+2. tmux config
+```
+https://github.com/gpakosz/.tmux
+set -g @plugin 'thewtex/tmux-mem-cpu-load'
+```
 
-## Epic
+## Tools
 
 ### Chrome
 1. Vimnium - The hacker's browser
@@ -27,6 +34,7 @@ Navigate Tab:
 4. Octotree - github tree viewer on browser
 5. Google Search Keyboard Shortcuts - 
 6. Night mode Pro - Turn Chrome to Dark theme
+7. Multi-clock
 
 ### Command Promt
 1. zsh
@@ -44,4 +52,7 @@ https://github.com/uber-go/guide
 ```
 https://github.com/airbnb/javascript
 ```
+## Shortcuts
 
+### Bash
+https://ss64.com/bash/syntax-keyboard.html
