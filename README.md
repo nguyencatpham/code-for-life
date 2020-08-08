@@ -33,6 +33,7 @@ Navigate Tab:
 4. Octotree - github tree viewer on browser
 5. Google Search Keyboard Shortcuts - 
 6. Night mode Pro - Turn Chrome to Dark theme
+7. Multi-clock
 
 ### Command Promt
 1. zsh
