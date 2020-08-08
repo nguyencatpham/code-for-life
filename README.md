@@ -12,6 +12,7 @@ https://github.com/hardcoreplayers/ThinkVim
 2. tmux config
 ```
 https://github.com/gpakosz/.tmux
+set -g @plugin 'thewtex/tmux-mem-cpu-load'
 ```
 
 ## Tools
