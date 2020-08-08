@@ -6,9 +6,9 @@ It's time to stop using the mouse and become a real senior!
 ### Shell quick install
 
 Follow at:
-https://github.com/kristijanhusak/neovim-config
+https://github.com/hardcoreplayers/ThinkVim
 
-## Epic
+## Tools
 
 ### Chrome
 1. Vimnium - The hacker's browser
@@ -44,4 +44,7 @@ https://github.com/uber-go/guide
 ```
 https://github.com/airbnb/javascript
 ```
+## Shortcuts
 
+### Bash
+https://ss64.com/bash/syntax-keyboard.html
