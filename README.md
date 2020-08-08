@@ -5,8 +5,14 @@ It's time to stop using the mouse and become a real senior!
 
 ### Shell quick install
 
-Follow at:
+1. Neovim
+```
 https://github.com/hardcoreplayers/ThinkVim
+```
+2. tmux config
+```
+https://github.com/gpakosz/.tmux
+```
 
 ## Tools
 
