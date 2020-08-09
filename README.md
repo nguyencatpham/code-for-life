@@ -43,7 +43,16 @@ sudo apt update
 sudo apt install vim
 sudo apt install vim-gtk3 vim-nox
 ```
-4. nvim 
+4. neovim
+```
+sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
+git clone https://github.com/neovim/neovim.git
+cd neovim
+git checkout v0.4.4
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+```
+4. thinkvim 
 ```
 https://github.com/hardcoreplayers/ThinkVim
 ```
