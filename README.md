@@ -52,7 +52,7 @@ git checkout v0.4.4
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
-4. thinkvim 
+5. thinkvim 
 ```
 https://github.com/hardcoreplayers/ThinkVim
 ```
@@ -62,9 +62,16 @@ git clone --depth=1 https://github.com/hardcoreplayers/ThinkVim.git ~/.config/nv
 cd ~/.config/nvim
 bash scripts/install.sh
 ```
-5. tmux
+6. tmux
 ```
 https://github.com/gpakosz/.tmux
+```
+or quick install
+```
+cd ~
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 ```
 add plugin
 ```
