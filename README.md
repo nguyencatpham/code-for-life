@@ -68,6 +68,8 @@ https://github.com/gpakosz/.tmux
 ```
 or quick install
 ```
+sudo apt-get update
+sudo apt-get install tmux
 cd ~
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
