@@ -1,19 +1,5 @@
-# dev note
+# dev note (ubuntu 18.04)
 It's time to stop using the mouse and become a real senior!
-
-## Quick start
-
-### Shell quick install
-
-1. Neovim
-```
-https://github.com/hardcoreplayers/ThinkVim
-```
-2. tmux config
-```
-https://github.com/gpakosz/.tmux
-set -g @plugin 'thewtex/tmux-mem-cpu-load'
-```
 
 ## Tools
 
@@ -38,9 +24,43 @@ Navigate Tab:
 
 ### Command Promt
 1. zsh
+```
+sudo apt install zsh
+chsh -s $(which zsh)
+# logout 
+gnome-session-quit
+```
+
 2. ohmyzsh
-3. nvim
-4. tmux
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+3. vim
+```
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt update
+sudo apt install vim
+sudo apt install vim-gtk3 vim-nox
+```
+4. nvim 
+```
+https://github.com/hardcoreplayers/ThinkVim
+```
+or quick install
+```
+git clone --depth=1 https://github.com/hardcoreplayers/ThinkVim.git ~/.config/nvim
+cd ~/.config/nvim
+bash scripts/install.sh
+```
+5. tmux
+```
+https://github.com/gpakosz/.tmux
+```
+add plugin
+```
+set -g @plugin 'thewtex/tmux-mem-cpu-load'
+```
 
 ### Coding style
 1. GO 
