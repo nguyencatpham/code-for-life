@@ -19,7 +19,7 @@ Navigate Tab:
 3. Google Translate - Translate selected text
 4. Octotree - github tree viewer on browser
 5. Google Search Keyboard Shortcuts - 
-6. Night mode Pro - Turn Chrome to Dark theme
+6. Dark mode - Turn Chrome to Dark theme
 7. Multi-clock
 
 ### Command Promt
@@ -51,6 +51,12 @@ cd neovim
 git checkout v0.4.4
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
+
+sudo npm install -g neovim
+
+sudo apt update
+sudo apt install ruby-full
+sudo gem install neovim
 ```
 5. thinkvim 
 ```
