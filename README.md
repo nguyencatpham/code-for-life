@@ -57,6 +57,11 @@ sudo npm install -g neovim
 sudo apt update
 sudo apt install ruby-full
 sudo gem install neovim
+
+sudo apt-get install python-pip
+sudo apt-get install python3-pip
+pip install neovim
+pip3 install neovim
 ```
 5. thinkvim 
 ```
@@ -83,6 +88,11 @@ cp .tmux/.tmux.conf.local .
 ```
 add plugin
 ```
+# write this at the beginning of ~/.zshrc
+if [ "$TMUX" = "" ]; then tmux; fi
+```
+```
+xterm -e tmux
 set -g @plugin 'thewtex/tmux-mem-cpu-load'
 ```
 
