@@ -1,10 +1,15 @@
-# dev note (ubuntu 18.04)
+# dev note 
+
+> dev-note is very begining note for dev. At the moment, it just support for ubuntu 18.04. I need a help to improve dev-note become a note for every developer on every platform.
+
 It's time to stop using the mouse and become a real senior!
 
 ## Tools
 
 ### Chrome
-1. Vimnium - The hacker's browser
+
+- Vimnium - The hacker's browser
+
 ```
 Navigate Tab: 
     Quick Switch : Ctrl + Tab, Ctrl + Shift + Tab, Ctr + 1, Ctrl +9
@@ -15,12 +20,12 @@ Navigate Tab:
     Quick Link   : f
     More help    : ?
 ```
-2. Redux devtool - for reactjs developer
-3. Google Translate - Translate selected text
-4. Octotree - github tree viewer on browser
-5. Google Search Keyboard Shortcuts - 
-6. Dark mode - Turn Chrome to Dark theme
-7. Multi-clock
+- Redux devtool - for reactjs developer
+- Google Translate - Translate selected text
+- Octotree - github tree viewer on browser
+- Google Search Keyboard Shortcuts - 
+- Dark mode - Turn Chrome to Dark theme
+- Multi-clock
 
 ### Command Promt
 1. zsh
@@ -112,3 +117,14 @@ https://github.com/airbnb/javascript
 
 ### Bash
 https://ss64.com/bash/syntax-keyboard.html
+
+### Todos
+ - Write MORE notes
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
