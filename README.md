@@ -26,6 +26,7 @@ Navigate Tab:
 - Google Search Keyboard Shortcuts - 
 - Dark mode - Turn Chrome to Dark theme
 - Multi-clock
+- Grammarly
 
 ### Command Promt
 1. zsh
