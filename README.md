@@ -129,11 +129,10 @@ sudo apt install font-manager
     - Background: #1C1C1C
     - Text: #CFBFAD
     - Bold text: #D33682
-    - Build in schema: Solarized
+    - Build in schema: Tango
 
 8. using only VIM
-- https://github.com/VundleVim/Vundle.vim
-- https://github.com/larsbs/vimterial_dark
+- https://github.com/sheerun/vim-polyglot
 
 ### Coding style
 1. GO 
