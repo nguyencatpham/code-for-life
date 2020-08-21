@@ -1,6 +1,6 @@
-# dev note 
+# Code for life 
 
-> dev-note is very begining note for dev. At the moment, it just support for ubuntu 18.04. I need a help to improve dev-note become a note for every developer on every platform.
+> code-for-life is very begining note for developer. At the moment, it just support for ubuntu 18.04. I need a help to improve code-for-life become a note for every developer on any platform.
 
 It's time to stop using the mouse!
 
@@ -8,8 +8,18 @@ It's time to stop using the mouse!
 
 ### Chrome
 
-- Vimnium - The hacker's browser
+| Extension | Description |
+| ------ | ------ |
+| [Vimnium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) | The hacker's browser |
+| [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) | Automated Grammar Checker |
+| [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=vi) | Translate selected text |
+| [Redux devtool](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=vi) | for reactjs developer |
+| [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=vi) | github tree viewer on browser |
+| [Dark mode](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj?hl=vi) | Turn Chrome to Dark theme |
+| [Google Search Keyboard Shortcuts ](https://chrome.google.com/webstore/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd?hl=vi) | Quick navigate search result |
+| [Multi-clock]() | Multi-clock in new tab |
 
+> Vimnium - The hacker's browser
 ```
 Navigate Tab: 
     Quick Switch : Ctrl + Tab, Ctrl + Shift + Tab, Ctr + 1, Ctrl +9
@@ -20,18 +30,8 @@ Navigate Tab:
     Quick Link   : f
     More help    : ?
 ```
-- Redux devtool - for reactjs developer
-- Google Translate - Translate selected text
-- Octotree - github tree viewer on browser
-- Google Search Keyboard Shortcuts - 
-- Dark mode - Turn Chrome to Dark theme
-- Multi-clock
-- Grammarly
-
-### Command Promt 
-> 4,5,6 for beginner 
-> 8 for master
-1. zsh
+## Terminal 
+### zsh
 ```
 sudo apt install zsh
 chsh -s $(which zsh)
@@ -39,19 +39,68 @@ chsh -s $(which zsh)
 gnome-session-quit
 ```
 
-2. ohmyzsh
+### ohmyzsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+### tmux
+```
+https://github.com/gpakosz/.tmux
+```
+or quick install
+```
+sudo apt-get update
+sudo apt-get install tmux
+cd ~
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+```
+add plugin
+```
+# write this at the beginning of ~/.zshrc
+if [ "$TMUX" = "" ]; then tmux; fi
+```
+```
+xterm -e tmux
+set -g @plugin 'thewtex/tmux-mem-cpu-load'
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+```
+### Terminal Preferences
+- Download fonts
+https://fontlibrary.org/en/font/consolamono
+> install this font using font manager
+```
+sudo apt install font-manager
+```
+> then apply it for terminal
 
-3. vim
+#### Setup terminal Preferences
+  + Theme : Dark
+  + Uncheck show menu bar
+  + Custom font: Consola Mono Book
+  + Run command as login shell
+  + Colors:
+    - Background: #1C1C1C
+    - Text: #CFBFAD
+    - Bold text: #D33682
+    - Build in schema: Tango
+
+## Code IDE/editor
+### vim8
 ```
 sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
 sudo apt install vim
 sudo apt install vim-gtk3 vim-nox
 ```
-4. neovim 
+* native package
+- https://github.com/sheerun/vim-polyglot
+- https://github.com/sickill/vim-monokai
+
+### Other suggestion
+1. neovim 
 ```
 sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
 git clone https://github.com/neovim/neovim.git
@@ -79,7 +128,7 @@ then add this code
 ```
 let g:spaceline_seperate_style= 'arrow'
 ```
-5. thinkvim 
+2. thinkvim 
 ```
 https://github.com/hardcoreplayers/ThinkVim
 ```
@@ -89,59 +138,14 @@ git clone --depth=1 https://github.com/hardcoreplayers/ThinkVim.git ~/.config/nv
 cd ~/.config/nvim
 bash scripts/install.sh
 ```
-6. tmux
-```
-https://github.com/gpakosz/.tmux
-```
-or quick install
-```
-sudo apt-get update
-sudo apt-get install tmux
-cd ~
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
-```
-add plugin
-```
-# write this at the beginning of ~/.zshrc
-if [ "$TMUX" = "" ]; then tmux; fi
-```
-```
-xterm -e tmux
-set -g @plugin 'thewtex/tmux-mem-cpu-load'
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-```
-7. fonts
-- Download fonts
-https://fontlibrary.org/en/font/consolamono
-> install this font, then apply for terminal
-```
-sudo apt-get install fonts-powerline
-```
-- Setup terminal Preferences
-  + Theme : Dark
-  + Uncheck show menu bar
-  + Custom font: Consola Mono Book
-  + Run command as login shell
-  + Colors:
-    - Background: #1D1D18
-    - Text: #CFBFAD
-    - Bold text: #D33682
-    - Build in schema: Solarized
 
-8. using only VIM
-- https://github.com/VundleVim/Vundle.vim
-- https://github.com/larsbs/vimterial_dark
-
-### Coding style
-1. GO 
+## Coding style
+### GO 
 ```
 https://github.com/uber-go/guide
 ```
 
-2. Javascript 
+### Javascript 
 ```
 https://github.com/airbnb/javascript
 ```
@@ -157,6 +161,7 @@ https://ss64.com/bash/syntax-keyboard.html
  - Tabnine load too more ram
  - Does not support standardjs
  - Explorer still slowly
+ 
 License
 ----
 
