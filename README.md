@@ -1,6 +1,6 @@
-# coding note 
+# Code for life 
 
-> coding-note is very begining note for dev. At the moment, it just support for ubuntu 18.04. I need a help to improve dev-note become a note for every developer on every platform.
+> code-for-life is very begining note for developer. At the moment, it just support for ubuntu 18.04. I need a help to improve code-for-life become a note for every developer on any platform.
 
 It's time to stop using the mouse!
 
