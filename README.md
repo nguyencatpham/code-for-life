@@ -28,7 +28,9 @@ Navigate Tab:
 - Multi-clock
 - Grammarly
 
-### Command Promt
+### Command Promt 
+> 4,5,6 for beginner 
+> 8 for master
 1. zsh
 ```
 sudo apt install zsh
@@ -49,7 +51,7 @@ sudo apt update
 sudo apt install vim
 sudo apt install vim-gtk3 vim-nox
 ```
-4. neovim
+4. neovim 
 ```
 sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
 git clone https://github.com/neovim/neovim.git
@@ -129,7 +131,9 @@ sudo apt-get install fonts-powerline
     - Bold text: #D33682
     - Build in schema: Solarized
 
-8. colors
+8. using only VIM
+- https://github.com/VundleVim/Vundle.vim
+- https://github.com/larsbs/vimterial_dark
 
 ### Coding style
 1. GO 
