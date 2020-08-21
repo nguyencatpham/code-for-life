@@ -10,14 +10,14 @@ It's time to stop using the mouse!
 
 | Extension | Description |
 | ------ | ------ |
-| Vimnium | The hacker's browser |
-| Grammarly | Automated Grammar Checker |
-| Google Translate | Translate selected text |
-| Redux devtool | for reactjs developer |
-| Octotree | github tree viewer on browser |
-| Dark mode | Turn Chrome to Dark theme |
-| Google Search Keyboard Shortcuts | Quick navigate search result |
-| Multi-clock | Multi-clock in new tab |
+| [Vimnium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) | The hacker's browser |
+| [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) | Automated Grammar Checker |
+| [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=vi) | Translate selected text |
+| [Redux devtool](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=vi) | for reactjs developer |
+| [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=vi) | github tree viewer on browser |
+| [Dark mode](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj?hl=vi) | Turn Chrome to Dark theme |
+| [Google Search Keyboard Shortcuts ](https://chrome.google.com/webstore/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd?hl=vi) | Quick navigate search result |
+| [Multi-clock]() | Multi-clock in new tab |
 
 > Vimnium - The hacker's browser
 ```
