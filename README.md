@@ -118,7 +118,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 https://fontlibrary.org/en/font/consolamono
 > install this font, then apply for terminal
 ```
-sudo apt-get install fonts-powerline
+sudo apt install font-manager
 ```
 - Setup terminal Preferences
   + Theme : Dark
@@ -126,7 +126,7 @@ sudo apt-get install fonts-powerline
   + Custom font: Consola Mono Book
   + Run command as login shell
   + Colors:
-    - Background: #1D1D18
+    - Background: #1C1C1C
     - Text: #CFBFAD
     - Bold text: #D33682
     - Build in schema: Solarized
