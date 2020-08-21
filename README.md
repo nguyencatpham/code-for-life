@@ -121,7 +121,11 @@ https://ss64.com/bash/syntax-keyboard.html
 
 ### Todos
  - Write MORE notes
-
+### Issues
+ - Nvim Theme is not good (pain my eyes)
+ - Tabnine load too more ram
+ - Does not support standardjs
+ - Explorer still slowly
 License
 ----
 
