@@ -69,6 +69,14 @@ sudo apt-get install python3-pip
 pip install neovim
 pip3 install neovim
 ```
+- Customize config
+```
+vi ~/.thinkvim.d/init.vim
+```
+then add this code
+```
+let g:spaceline_seperate_style= 'arrow'
+```
 5. thinkvim 
 ```
 https://github.com/hardcoreplayers/ThinkVim
@@ -103,6 +111,12 @@ set -g @plugin 'thewtex/tmux-mem-cpu-load'
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
+7. fonts
+- Download fonts
+https://fontlibrary.org/en/font/consolamono
+> install this font, then apply for terminal
+
+8. colors
 
 ### Coding style
 1. GO 
