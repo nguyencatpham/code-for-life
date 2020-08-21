@@ -56,16 +56,15 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 ```
-add plugin
+edit ~/.vimrc
 ```
 # write this at the beginning of ~/.zshrc
 if [ "$TMUX" = "" ]; then tmux; fi
 ```
+add cpu plugin
 ```
-xterm -e tmux
-set -g @plugin 'thewtex/tmux-mem-cpu-load'
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized}#[fg=green]#($TMUX_PLUGIN_MANAGER_PATH/tmux-mem-cpu-load/tmux-mem-cpu-load --colors --powerline-right --interval 2)#[default]#{sysstat_cpu}#{sysstat_mem}#{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} | #{hostname} '
+
 ```
 ### Terminal Preferences
 - Download fonts
