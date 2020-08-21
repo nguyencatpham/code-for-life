@@ -133,6 +133,7 @@ sudo apt install font-manager
 
 8. using only VIM
 - https://github.com/sheerun/vim-polyglot
+- https://github.com/sickill/vim-monokai
 
 ### Coding style
 1. GO 
