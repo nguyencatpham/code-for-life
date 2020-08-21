@@ -1,4 +1,4 @@
-# dev note 
+# coding note 
 
 > coding-note is very begining note for dev. At the moment, it just support for ubuntu 18.04. I need a help to improve dev-note become a note for every developer on every platform.
 
