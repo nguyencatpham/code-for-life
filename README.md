@@ -8,8 +8,18 @@ It's time to stop using the mouse!
 
 ### Chrome
 
-- Vimnium - The hacker's browser
+| Extension | Description |
+| ------ | ------ |
+| Vimnium | The hacker's browser |
+| Grammarly | Automated Grammar Checker |
+| Google Translate | Translate selected text |
+| Redux devtool | for reactjs developer |
+| Octotree | github tree viewer on browser |
+| Dark mode | Turn Chrome to Dark theme |
+| Google Search Keyboard Shortcuts | Quick navigate search result |
+| Multi-clock | Multi-clock in new tab |
 
+> Vimnium - The hacker's browser
 ```
 Navigate Tab: 
     Quick Switch : Ctrl + Tab, Ctrl + Shift + Tab, Ctr + 1, Ctrl +9
@@ -20,16 +30,8 @@ Navigate Tab:
     Quick Link   : f
     More help    : ?
 ```
-- Redux devtool - for reactjs developer
-- Google Translate - Translate selected text
-- Octotree - github tree viewer on browser
-- Google Search Keyboard Shortcuts - 
-- Dark mode - Turn Chrome to Dark theme
-- Multi-clock
-- Grammarly
-
-### Terminal 
-#### zsh
+## Terminal 
+### zsh
 ```
 sudo apt install zsh
 chsh -s $(which zsh)
@@ -37,11 +39,11 @@ chsh -s $(which zsh)
 gnome-session-quit
 ```
 
-#### ohmyzsh
+### ohmyzsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-#### tmux
+### tmux
 ```
 https://github.com/gpakosz/.tmux
 ```
@@ -65,14 +67,16 @@ set -g @plugin 'thewtex/tmux-mem-cpu-load'
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
-#### Terminal Preferences
+### Terminal Preferences
 - Download fonts
 https://fontlibrary.org/en/font/consolamono
-> install this font, then apply for terminal
+> install this font using font manager
 ```
 sudo apt install font-manager
 ```
-- Setup terminal Preferences
+> then apply it for terminal
+
+#### Setup terminal Preferences
   + Theme : Dark
   + Uncheck show menu bar
   + Custom font: Consola Mono Book
@@ -83,8 +87,8 @@ sudo apt install font-manager
     - Bold text: #D33682
     - Build in schema: Tango
 
-### Code IDE/editor
-#### vim8
+## Code IDE/editor
+### vim8
 ```
 sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
@@ -135,13 +139,13 @@ cd ~/.config/nvim
 bash scripts/install.sh
 ```
 
-### Coding style
-1. GO 
+## Coding style
+### GO 
 ```
 https://github.com/uber-go/guide
 ```
 
-2. Javascript 
+### Javascript 
 ```
 https://github.com/airbnb/javascript
 ```
@@ -157,6 +161,7 @@ https://ss64.com/bash/syntax-keyboard.html
  - Tabnine load too more ram
  - Does not support standardjs
  - Explorer still slowly
+ 
 License
 ----
 
