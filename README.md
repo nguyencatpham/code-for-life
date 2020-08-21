@@ -2,7 +2,7 @@
 
 > dev-note is very begining note for dev. At the moment, it just support for ubuntu 18.04. I need a help to improve dev-note become a note for every developer on every platform.
 
-It's time to stop using the mouse and become a real senior!
+It's time to stop using the mouse!
 
 ## Tools
 
@@ -115,6 +115,19 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 - Download fonts
 https://fontlibrary.org/en/font/consolamono
 > install this font, then apply for terminal
+```
+sudo apt-get install fonts-powerline
+```
+- Setup terminal Preferences
+  + Theme : Dark
+  + Uncheck show menu bar
+  + Custom font: Consola Mono Book
+  + Run command as login shell
+  + Colors:
+    - Background: #1D1D18
+    - Text: #CFBFAD
+    - Bold text: #D33682
+    - Build in schema: Solarized
 
 8. colors
 
