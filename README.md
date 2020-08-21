@@ -28,10 +28,8 @@ Navigate Tab:
 - Multi-clock
 - Grammarly
 
-### Command Promt 
-> 4,5,6 for beginner 
-> 8 for master
-1. zsh
+### Terminal 
+#### zsh
 ```
 sudo apt install zsh
 chsh -s $(which zsh)
@@ -39,19 +37,66 @@ chsh -s $(which zsh)
 gnome-session-quit
 ```
 
-2. ohmyzsh
+#### ohmyzsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+#### tmux
+```
+https://github.com/gpakosz/.tmux
+```
+or quick install
+```
+sudo apt-get update
+sudo apt-get install tmux
+cd ~
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+```
+add plugin
+```
+# write this at the beginning of ~/.zshrc
+if [ "$TMUX" = "" ]; then tmux; fi
+```
+```
+xterm -e tmux
+set -g @plugin 'thewtex/tmux-mem-cpu-load'
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+```
+#### Terminal Preferences
+- Download fonts
+https://fontlibrary.org/en/font/consolamono
+> install this font, then apply for terminal
+```
+sudo apt install font-manager
+```
+- Setup terminal Preferences
+  + Theme : Dark
+  + Uncheck show menu bar
+  + Custom font: Consola Mono Book
+  + Run command as login shell
+  + Colors:
+    - Background: #1C1C1C
+    - Text: #CFBFAD
+    - Bold text: #D33682
+    - Build in schema: Tango
 
-3. vim
+### Code IDE/editor
+#### vim8
 ```
 sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
 sudo apt install vim
 sudo apt install vim-gtk3 vim-nox
 ```
-4. neovim 
+* native package
+- https://github.com/sheerun/vim-polyglot
+- https://github.com/sickill/vim-monokai
+
+### Other suggestion
+1. neovim 
 ```
 sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
 git clone https://github.com/neovim/neovim.git
@@ -79,7 +124,7 @@ then add this code
 ```
 let g:spaceline_seperate_style= 'arrow'
 ```
-5. thinkvim 
+2. thinkvim 
 ```
 https://github.com/hardcoreplayers/ThinkVim
 ```
@@ -89,51 +134,6 @@ git clone --depth=1 https://github.com/hardcoreplayers/ThinkVim.git ~/.config/nv
 cd ~/.config/nvim
 bash scripts/install.sh
 ```
-6. tmux
-```
-https://github.com/gpakosz/.tmux
-```
-or quick install
-```
-sudo apt-get update
-sudo apt-get install tmux
-cd ~
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
-```
-add plugin
-```
-# write this at the beginning of ~/.zshrc
-if [ "$TMUX" = "" ]; then tmux; fi
-```
-```
-xterm -e tmux
-set -g @plugin 'thewtex/tmux-mem-cpu-load'
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-```
-7. fonts
-- Download fonts
-https://fontlibrary.org/en/font/consolamono
-> install this font, then apply for terminal
-```
-sudo apt install font-manager
-```
-- Setup terminal Preferences
-  + Theme : Dark
-  + Uncheck show menu bar
-  + Custom font: Consola Mono Book
-  + Run command as login shell
-  + Colors:
-    - Background: #1C1C1C
-    - Text: #CFBFAD
-    - Bold text: #D33682
-    - Build in schema: Tango
-
-8. using only VIM
-- https://github.com/sheerun/vim-polyglot
-- https://github.com/sickill/vim-monokai
 
 ### Coding style
 1. GO 
