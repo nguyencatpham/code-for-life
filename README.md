@@ -156,11 +156,18 @@ https://ss64.com/bash/syntax-keyboard.html
 ### Todos
  - Write MORE notes
 ### Issues
+1. neovim
  - Nvim Theme is not good (pain my eyes)
  - Tabnine load too more ram
  - Does not support standardjs
  - Explorer still slowly
- 
+
+2. vim
+ - multi cursor
+ - format yaml
+ - git diff/compare
+
+
 License
 ----
 
