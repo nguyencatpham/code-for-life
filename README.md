@@ -138,6 +138,23 @@ git clone --depth=1 https://github.com/hardcoreplayers/ThinkVim.git ~/.config/nv
 cd ~/.config/nvim
 bash scripts/install.sh
 ```
+3. vscode
+> https://code.visualstudio.com/download 
+
+Extensions:
+| Extension | Description |
+| ------ | ------ |
+| [AsciiDoc](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode) | Ascii docs |
+| [Bookmark](http://github.com/alefragnani/vscode-bookmarks) | vscode bookmark |
+| [Bracket Pair Colorizer](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2) | Make colorize for bracket pair |
+| [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | Supercharge the Git capabilities  |
+| [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) | My theme |
+| [StandardJS]() | JS linter  |
+| [Tabnine]() | AI code suggestion |
+| [TODO tree]() | TODO via explorer |
+| [Vim]() | Vim |
+| [vscode-icon]() | icon |
+| [YAML]() | YAML formatter |
 
 ## Coding style
 ### GO 
