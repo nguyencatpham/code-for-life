@@ -18,6 +18,7 @@ It's time to stop using the mouse!
 | [Dark mode](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj?hl=vi) | Turn Chrome to Dark theme |
 | [Google Search Keyboard Shortcuts ](https://chrome.google.com/webstore/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd?hl=vi) | Quick navigate search result |
 | [Multi-clock]() | Multi-clock in new tab |
+| [Natural Reader Text to Speech](https://chrome.google.com/webstore/detail/natural-reader-text-to-sp/kohfgcgbkjodfcfkcackpagifgbcmimk) | Text to speech |
 
 > Vimnium - The hacker's browser
 ```
