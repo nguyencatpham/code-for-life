@@ -185,11 +185,17 @@ https://ss64.com/bash/syntax-keyboard.html
  - format yaml
  - git diff/compare
 
+### Tips
+
+#### vim graphical cheat sheet
+
+![vim_cheat_sheet](resources/vim.tutorial.svg)
+
+#### 10 finger style guide
+
+![10_finger_style](./resources/10-finger-style.png)
 
 License
 ----
 
 MIT
-
-
-**Free Software, Hell Yeah!**
