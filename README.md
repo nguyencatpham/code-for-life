@@ -19,6 +19,8 @@ It's time to stop using the mouse!
 | [Google Search Keyboard Shortcuts ](https://chrome.google.com/webstore/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd?hl=vi) | Quick navigate search result |
 | [Multi-clock]() | Multi-clock in new tab |
 | [Natural Reader Text to Speech](https://chrome.google.com/webstore/detail/natural-reader-text-to-sp/kohfgcgbkjodfcfkcackpagifgbcmimk) | Text to speech |
+| [Reader mode](https://readermode.io/) | Change to reader mode |
+| [Session container](https://chrome.google.com/webstore/detail/sessionbox-free-multi-log/megbklhjamjbcafknkgmokldgolkdfig) | The session container |
 
 > Vimnium - The hacker's browser
 ```
