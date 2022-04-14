@@ -21,6 +21,7 @@ It's time to stop using the mouse!
 | [Natural Reader Text to Speech](https://chrome.google.com/webstore/detail/natural-reader-text-to-sp/kohfgcgbkjodfcfkcackpagifgbcmimk) | Text to speech |
 | [Reader mode](https://readermode.io/) | Change to reader mode |
 | [Session container](https://chrome.google.com/webstore/detail/sessionbox-free-multi-log/megbklhjamjbcafknkgmokldgolkdfig) | The session container |
+| [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) | Capture full a page |
 
 > Vimnium - The hacker's browser
 ```
