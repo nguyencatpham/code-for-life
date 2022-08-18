@@ -80,6 +80,9 @@ add cpu plugin
 tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized}#[fg=green]#($TMUX_PLUGIN_MANAGER_PATH/tmux-mem-cpu-load/tmux-mem-cpu-load --colors --powerline-right --interval 2)#[default]#{sysstat_cpu}#{sysstat_mem}#{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} | #{hostname} '
 
 ```
+Start Tmux by default
+```
+```
 ### Terminal Preferences
 - Download fonts
 https://fontlibrary.org/en/font/consolamono
@@ -99,6 +102,8 @@ sudo apt install font-manager
     - Text: #CFBFAD
     - Bold text: #D33682
     - Build in schema: Tango
+    - Highlight text: #094D92
+    - Highlight backgroundL #95964C
 
 ## Code IDE/editor
 ### vim8
