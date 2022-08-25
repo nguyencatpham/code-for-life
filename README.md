@@ -61,6 +61,13 @@ plugins=(
 	docker
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	kubectl
+	history 
+	emoji 
+	encode64
+	web-search
+	vscode
+	jsontools
 )
 ```
 ### tmux
