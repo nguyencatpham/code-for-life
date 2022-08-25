@@ -68,6 +68,11 @@ plugins=(
 	web-search
 	vscode
 	jsontools
+	docker
+	colorize
+	colored-man-pages
+	fasd
+	tmux
 )
 ```
 ### tmux
