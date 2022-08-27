@@ -90,8 +90,11 @@ cp .tmux/.tmux.conf.local .
 ```
 edit ~/.vimrc
 ```
-# write this at the beginning of ~/.zshrc
-if [ "$TMUX" = "" ]; then tmux; fi
+Set tmux by default
+case $- in *i*)
+    [ -z "$TMUX" ] && exec tmux
+esac
+in my .zshrc. If you're using bash, put it in your .bashrc instead.
 ```
 add cpu plugin
 ```
