@@ -152,7 +152,7 @@ sudo apt install vim-gtk3 vim-nox
 ```
 git clone https://github.com/junegunn/fzf.git ~/.vim/pack/packages/start/fzf
 git clone https://github.com/junegunn/fzf.vim.git ~/.vim/pack/packages/start/fzf.vim
-source ~/zshrc
+
 ```
 
 2. Install ag
@@ -160,10 +160,18 @@ source ~/zshrc
 ```
 sudo apt-get install silversearcher-ag
 ```
-3. How to use
+3. Reload your shell
 
-Type `:Ag <text_to_search>` in Vim editor. For example:
+```
+source ~/.zshrc
+```
 
+4. How to use
+
+Type `:Ag <text_to_search_in_files>` in Vim editor.
+Type `:Files <text_to_search_files_name_in_this_directory>` 
+
+type in Vim editor to use the tool.
 ```
 :Ag app.run
 ```
