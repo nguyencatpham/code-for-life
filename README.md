@@ -145,6 +145,29 @@ sudo apt install vim-gtk3 vim-nox
 ~/.vim/pack/default/start
 ```
 
+#### Search content in files
+
+1. Install fzf & fzf.vim
+
+```
+git clone https://github.com/junegunn/fzf.git ~/.vim/pack/packages/start/fzf
+git clone https://github.com/junegunn/fzf.vim.git ~/.vim/pack/packages/start/fzf.vim
+source ~/zshrc
+```
+
+2. Install ag
+
+```
+sudo apt-get install silversearcher-ag
+```
+3. How to use
+
+Type `:Ag <text_to_search>` in Vim editor. For example:
+
+```
+:Ag app.run
+```
+
 ### Other suggestion
 1. neovim 
 ```
