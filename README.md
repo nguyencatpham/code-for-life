@@ -144,6 +144,13 @@ sudo apt install vim-gtk3 vim-nox
 ```
 ~/.vim/pack/default/start
 ```
+#### Vim Go
+1. Install 
+
+```
+git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+
+```
 
 #### Search content in files
 
