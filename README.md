@@ -151,7 +151,13 @@ sudo apt install vim-gtk3 vim-nox
 git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
 
 ```
+#### git-blame (like Gitlens)
+1. Install 
 
+```
+git clone git@github.com:zivyangll/git-blame.vim.git ~/.vim/pack/plugins/start/git-blame
+
+```
 #### Search content in files
 
 1. Install fzf & fzf.vim
