@@ -143,6 +143,11 @@ sudo apt install vim-gtk3 vim-nox
 > Quick install native package in vim8, just clone a package and put in
 ```
 ~/.vim/pack/default/start
+
+git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/pack/default/start/sheerun/vim-polyglot
+git clone https://github.com/sickill/vim-monokai.git ~/.vim/pack/default/start/sickill/vim-monokai
+git clone https://github.com/codota/tabnine-vim.git ~/.vim/pack/default/start/tabnine-vim
+git clone https://github.com/tpope/vim-fugitive.git ~/.vim/pack/default/start/tpope/vim-fugitive
 ```
 #### Vim Go
 1. Install 
