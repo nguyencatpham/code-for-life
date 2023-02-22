@@ -149,6 +149,8 @@ git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/pack/default/start/
 git clone https://github.com/sickill/vim-monokai.git ~/.vim/colors/vim-monokai
 git clone https://github.com/codota/tabnine-vim.git ~/.vim/pack/default/start/tabnine-vim
 git clone https://github.com/tpope/vim-fugitive.git ~/.vim/pack/default/start/vim-fugitive
+
+cp ~/.vim/colors/vim-monokai/colors/monokai.vim .
 ```
 #### Vim Go
 1. Install 
